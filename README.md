@@ -5,11 +5,6 @@
 <h1>osTicket - Post-Install Configuration</h1>
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,10 +17,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Configure roles, departments, and teams.
-- Configure Agents (workers) and Users (customers).
-- Configure and learn about SLAs. 
-- Configure Help Topics. 
+- Configure roles, departments, and teams
+- Configure Agents (workers) and Users (customers)
+- Configure and learn about SLAs
+- Configure Help Topics
 
 <h2>Configuration Steps</h2>
 
@@ -57,7 +52,7 @@ List of all Departments that we used for the execution of this lab.
 <img width="491" alt="Capture4" src="https://github.com/gabromerorodriguez/post-install-config/assets/163021104/f5a49434-4bf5-4a2a-ad18-368ae9d27d6c">
 </p>
 <p>
-In te same section where we created the Roles and Deparments, now we added Teams. Teams in osTicket are subsets of departments, consisting of agents who collaborate on resolving tickets within a specific area of expertise or responsibility. For instance, within the IT support department, there may be separate teams for network troubleshooting, software support, and hardware maintenance. In this case, we create the Level II Support. 
+In the same section where we created the Roles and Deparments, now we added Teams. Teams in osTicket are subsets of departments, consisting of agents who collaborate on resolving tickets within a specific area of expertise or responsibility. For instance, within the IT support department, there may be separate teams for network troubleshooting, software support, and hardware maintenance. In this case, we create the Level II Support. 
 </p>
 <br />
 
@@ -65,7 +60,7 @@ In te same section where we created the Roles and Deparments, now we added Teams
 <img width="492" alt="Capture5" src="https://github.com/gabromerorodriguez/post-install-config/assets/163021104/7ed90038-2289-4cc7-8581-b6898f25d5d8">
 </p>
 <p>
-In te same section where we created the Roles, Deparments and Teams, now we added Agents. Agents are staff members responsible for handling tickets submitted by end-users. They interact directly with customers to address their issues, provide support, and resolve inquiries in a timely manner. In this case, we added Jane Doe and Johhny Doe to the agents section. Jane Doe is part of the System Administrators Deparment also Jane Doe had Supreme Admin Role. In addition, Johnny Doe is part of the Support Deparment. 
+In the same section where we created the Roles, Deparments and Teams, now we added Agents. Agents are staff members responsible for handling tickets submitted by end-users. They interact directly with customers to address their issues, provide support, and resolve inquiries in a timely manner. In this case, we added Jane Doe and Johhny Doe to the agents section. Jane Doe is part of the System Administrators Deparment also Jane Doe had Supreme Admin Role. In addition, Johnny Doe is part of the Support Deparment. 
 </p>
 <br />
 
@@ -74,7 +69,7 @@ In te same section where we created the Roles, Deparments and Teams, now we adde
 </p>
 <p>
 We continued the lab by adding users. Users, also known as customers or end-users, are individuals or entities that submit tickets to osTicket for assistance or support. They interact with the system primarily through the ticket submission interface, providing details about their issues, inquiries, or requests. In this lab, we added two users to osTicket. 
-\</p>
+</p>
 <br />
 
 <p>
@@ -85,7 +80,7 @@ We continued the lab by adding users. Users, also known as customers or end-user
 </p>
 <p>
 Now we experimented with different SLA configurations to understand their impact on ticket management and service delivery. By configuring SLAs, administrators can prioritize tickets, set performance targets, and monitor service delivery to meet customer expectations effectively. In this lab, we created three types of SLAs: SEV-A (1 hour, 24/7), SEV-B (4 hours, 24/7), and SEV-C (8 hours, business hours). 
-\</p>
+</p>
 <br />
 
 <p>
@@ -93,5 +88,5 @@ Now we experimented with different SLA configurations to understand their impact
 </p>
 <p>
 As the last part fo this lab, we created Help Topics. Help Topics classify tickets based on common issues, inquiries, or request types. They provide a structured way to organize and categorize incoming tickets, making it easier for agents to identify and prioritize tickets for resolution. Help topics may cover a wide range of topics, such as technical support, account inquiries, billing issues, or product feedback. In this lab, we creted 4 different help topics: Business Critical Outage, Personal Computer Issues, Equipment Request and Password Reset. 
-\</p>
+</p>
 <br />
